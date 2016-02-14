@@ -5,7 +5,7 @@
 	<!-- Dans chaque slide, nous allons mettre au maximum 6 donnees/figures -->
 	
 	<!-- On dessine un rectangle  -->	
-	<respath resid='bkgrnd' size='640,480' crop="auto" stroke='off' spread='on' color='#00BB00' fill='even-odd' >
+	<respath resid='bkgrnd' size='640,480' crop="auto" stroke='off' spread='on' color='#0f12ff' fill='even-odd' >
 		Ju:0,0; 
 		Li:20,0; 
 		Li:20,20; 

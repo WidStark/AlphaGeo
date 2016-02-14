@@ -292,34 +292,39 @@
 		Li:64,320;
 		Li:0,320;
 	</respath>
+	
+	<!-- Filtre pour passage sur boutton -->
+	<setfilter filterid='gold'>
+		<filter effect='mixcolor' level='60' color='#0f12ff' />
+	</setfilter>
 		
 	
 	<!-- Reference vers le fichier next slideA.fsdl-->
-	<file fileid='file_A' nature='static' name='/index/indexa.fsdl' />
+	<file fileid='file_A' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideB.fsdl-->
-	<file fileid='file_B' nature='static' name='/index/indexb.fsdl' />
+	<file fileid='file_B' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideC.fsdl-->
 	<file fileid='file_C' nature='static' name='/slides/slidec.fsdl' />
 	<!-- Reference vers le fichier next slideD.fsdl-->
-	<file fileid='file_D' nature='static' name='/index/indexd.fsdl' />
+	<file fileid='file_D' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideE.fsdl-->
 	<file fileid='file_E' nature='static' name='/slides/slidee.fsdl' />
 	<!-- Reference vers le fichier next slideF.fsdl-->
-	<file fileid='file_F' nature='static' name='/index/indexf.fsdl' />
+	<file fileid='file_F' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideG.fsdl-->
-	<file fileid='file_G' nature='static' name='/index/indexg.fsdl' />
+	<file fileid='file_G' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideH.fsdl-->
 	<file fileid='file_H' nature='static' name='/slides/slideh.fsdl' />
 	<!-- Reference vers le fichier next slideI.fsdl-->
 	<file fileid='file_I' nature='static' name='/slides/slidei.fsdl' />
 	<!-- Reference vers le fichier next slideJ.fsdl-->
-	<file fileid='file_J' nature='static' name='/index/indexj.fsdl' />
+	<file fileid='file_J' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideK.fsdl-->
-	<file fileid='file_K' nature='static' name='/index/indexk.fsdl' />
+	<file fileid='file_K' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideL.fsdl-->
-	<file fileid='file_L' nature='static' name='/index/indexl.fsdl' />
+	<file fileid='file_L' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideM.fsdl-->
-	<file fileid='file_M' nature='static' name='/index/indexm.fsdl' />
+	<file fileid='file_M' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideN.fsdl-->
 	<file fileid='file_N' nature='static' name='/slides/sliden.fsdl' />
 	<!-- Reference vers le fichier next slideO.fsdl-->
@@ -335,17 +340,17 @@
 	<!-- Reference vers le fichier next slideT.fsdl-->
 	<file fileid='file_T' nature='static' name='/slides/slidet.fsdl' />
 	<!-- Reference vers le fichier next slideU.fsdl-->
-	<file fileid='file_U' nature='static' name='/index/indexu.fsdl' />
+	<file fileid='file_U' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideV.fsdl-->
-	<file fileid='file_V' nature='static' name='/index/indexv.fsdl' />
+	<file fileid='file_V' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideW.fsdl-->
-	<file fileid='file_W' nature='static' name='/index/indexw.fsdl' />
+	<file fileid='file_W' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideX.fsdl-->
-	<file fileid='file_X' nature='static' name='/index/indexx.fsdl' />
+	<file fileid='file_X' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideY.fsdl-->
-	<file fileid='file_Y' nature='static' name='/index/indexy.fsdl' />
+	<file fileid='file_Y' nature='static' name='/mainpage.fsdl' />
 	<!-- Reference vers le fichier next slideZ.fsdl-->
-	<file fileid='file_Z' nature='static' name='/index/indexz.fsdl' />
+	<file fileid='file_Z' nature='static' name='/mainpage.fsdl' />
 
 	
 	<!-- Boutton A -->
@@ -371,8 +376,8 @@
 	<!-- Boutton C -->
 	<button buttonid='buttonC' goto='slide' fileref='file_C' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_C_1' leapout='lead' pos='160,80' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_C_2' leapout='lead' pos='160,80' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_C_1' leapout='lead' pos='160,80' combine='clip' visible='nofocus' opacity='65' filterref='gold' />
+		<layer resref='letter_fnt' layerid='button_C_2' leapout='lead' pos='160,80' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_C' layerid='button_C_3' leapout='lead' pos='160,80' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_C' layerid='button_C_4' leapout='lead' pos='160,80' combine='clip' visible='focus' opacity='100' />
@@ -391,8 +396,8 @@
 	<!-- Boutton E -->
 	<button buttonid='buttonE' goto='slide' fileref='file_E' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_E_1' leapout='lead' pos='288,80' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_E_2' leapout='lead' pos='288,80' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_E_1' leapout='lead' pos='288,80' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_E_2' leapout='lead' pos='288,80' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_E' layerid='button_E_3' leapout='lead' pos='288,80' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_E' layerid='button_E_4' leapout='lead' pos='288,80' combine='clip' visible='focus' opacity='100' />
@@ -421,8 +426,8 @@
 	<!-- Boutton H -->
 	<button buttonid='buttonH' goto='slide' fileref='file_H' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_H_1' leapout='lead' pos='480,80' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_H_2' leapout='lead' pos='480,80' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_H_1' leapout='lead' pos='480,80' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_H_2' leapout='lead' pos='480,80' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_H' layerid='button_H_3' leapout='lead' pos='480,80' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_H' layerid='button_H_4' leapout='lead' pos='480,80' combine='clip' visible='focus' opacity='100' />
@@ -431,8 +436,8 @@
 	<!-- Boutton I -->
 	<button buttonid='buttonI' goto='slide' fileref='file_I' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_I_1' leapout='lead' pos='544,80' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_I_2' leapout='lead' pos='544,80' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_I_1' leapout='lead' pos='544,80' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_I_2' leapout='lead' pos='544,80' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_I' layerid='button_I_3' leapout='lead' pos='544,80' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_I' layerid='button_I_4' leapout='lead' pos='544,80' combine='clip' visible='focus' opacity='100' />
@@ -481,8 +486,8 @@
 	<!-- Boutton N -->
 	<button buttonid='buttonN' goto='slide' fileref='file_N' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_N_1' leapout='lead' pos='224,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_N_2' leapout='lead' pos='224,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_N_1' leapout='lead' pos='224,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_N_2' leapout='lead' pos='224,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_N' layerid='button_N_3' leapout='lead' pos='224,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_N' layerid='button_N_4' leapout='lead' pos='224,240' combine='clip' visible='focus' opacity='100' />
@@ -491,8 +496,8 @@
 	<!-- Boutton O -->
 	<button buttonid='buttonO' goto='slide' fileref='file_O' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_O_1' leapout='lead' pos='288,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_O_2' leapout='lead' pos='288,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_O_1' leapout='lead' pos='288,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_O_2' leapout='lead' pos='288,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_O' layerid='button_O_3' leapout='lead' pos='288,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_O' layerid='button_O_4' leapout='lead' pos='288,240' combine='clip' visible='focus' opacity='100' />
@@ -501,8 +506,8 @@
 	<!-- Boutton P -->
 	<button buttonid='buttonP' goto='slide' fileref='file_P' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_P_1' leapout='lead' pos='352,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_P_2' leapout='lead' pos='352,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_P_1' leapout='lead' pos='352,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_P_2' leapout='lead' pos='352,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_P' layerid='button_P_3' leapout='lead' pos='352,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_P' layerid='button_P_4' leapout='lead' pos='352,240' combine='clip' visible='focus' opacity='100' />
@@ -511,8 +516,8 @@
 	<!-- Boutton Q -->
 	<button buttonid='buttonQ' goto='slide' fileref='file_Q' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_Q_1' leapout='lead' pos='416,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_Q_2' leapout='lead' pos='416,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_Q_1' leapout='lead' pos='416,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_Q_2' leapout='lead' pos='416,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_Q' layerid='button_Q_3' leapout='lead' pos='416,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_Q' layerid='button_Q_4' leapout='lead' pos='416,240' combine='clip' visible='focus' opacity='100' />
@@ -521,8 +526,8 @@
 	<!-- Boutton R -->
 	<button buttonid='buttonR' goto='slide' fileref='file_R' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_R_1' leapout='lead' pos='480,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_R_2' leapout='lead' pos='480,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_R_1' leapout='lead' pos='480,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_R_2' leapout='lead' pos='480,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_R' layerid='button_R_3' leapout='lead' pos='480,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_R' layerid='button_R_4' leapout='lead' pos='480,240' combine='clip' visible='focus' opacity='100' />
@@ -531,8 +536,8 @@
 	<!-- Boutton S -->
 	<button buttonid='buttonS' goto='slide' fileref='file_S' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_S_1' leapout='lead' pos='544,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_S_2' leapout='lead' pos='544,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_S_1' leapout='lead' pos='544,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_S_2' leapout='lead' pos='544,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_S' layerid='button_S_3' leapout='lead' pos='544,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_S' layerid='button_S_4' leapout='lead' pos='544,240' combine='clip' visible='focus' opacity='100' />
@@ -541,8 +546,8 @@
 	<!-- Boutton T -->
 	<button buttonid='buttonT' goto='slide' fileref='file_T' >
 		<!-- Description de l'affichage du boutton de transition entre deux slides-->
-		<layer resref='letter_fnt' layerid='button_T_1' leapout='lead' pos='608,240' combine='clip' visible='nofocus' opacity='65' />
-		<layer resref='letter_fnt' layerid='button_T_2' leapout='lead' pos='608,240' combine='clip' visible='focus' opacity='100' />
+		<layer resref='letter_fnt' layerid='button_T_1' leapout='lead' pos='608,240' combine='clip' visible='nofocus' opacity='65' filterref='gold'/>
+		<layer resref='letter_fnt' layerid='button_T_2' leapout='lead' pos='608,240' combine='clip' visible='focus' opacity='100' filterref='gold'/>
 		
 		<layer resref='letter_T' layerid='button_T_3' leapout='lead' pos='608,240' combine='clip' visible='nofocus' opacity='65' />
 		<layer resref='letter_T' layerid='button_T_4' leapout='lead' pos='608,240' combine='clip' visible='focus' opacity='100' />
