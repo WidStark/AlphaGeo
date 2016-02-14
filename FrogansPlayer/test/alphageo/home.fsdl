@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<frogans-fsdl version='3.0'>
+	<!-- We load the background image -->
+	<file fileid='bkgrnd_f' nature='static' name='/images/background2.png' cache='on' />
+	
+	<resimage fileref='bkgrnd_f' resid='bkgrnd_r' size='640,480' />
+	<layer resref='bkgrnd_r' layerid='bkgrnd_layer' leapout='all' pos='0,0' align='left-top' combine='add' />
+	
+
+</frogans-fsdl>
