@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?> 
+
+<frogans-fsdl version='3.0'> <!-- The opening tag of your FSDL root element -->
+
+	<!-- Vignette -->
+	<file fileid='vgnt_file' nature='static' name='../images/logo.png' cache='on' />
+	<resimage fileref='vgnt_file' resid='vgnt_res' size='640,480' />
+	<layer resref='vgnt_res' layerid='vgnt_layer' leapout='vignette' pos='0,0' align='left-top' combine='add' />
+
+	
+	
+	<!-- We draw the background -->
+	<respath resid='rectangle_1' size='640,480' crop="auto" stroke='off' spread='on' color='#000000'>
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,480;
+		Li:640,480;
+		Li:640,0;
+	</respath>	
+	
+	<!-- We set the title font -->
+	<setfont fontid='font_1'>
+		<font scripts='default' pfont='108-1-sans-r' height='15.0' xbold='100' color='#000000'/>
+	</setfont>
+	
+	<!-- We set the Geometry and Formulas font -->
+	<setfont fontid='font_2'>
+		<font scripts='default' pfont='108-1-sans-r' height='8.0' xbold='20' color='#000000'/>
+	</setfont>
+	
+	<!-- We set the writtings font -->
+	<setfont fontid='font_3'>
+		<font scripts='default' pfont='108-1-sans-r' height='11.0' xbold='50' color='#000000' underline='on'/>
+	</setfont>
+
+	
+	
+	<!-- We put the figure's name -->
+	<restext resid='txt_titre' size='640,56' orientation='h-btt-ltr' fontref='font_1' talign='center'>
+		<text>
+			Curvilinear triangle
+		</text>
+	</restext>
+	
+	<!-- We put the figure's preperties -->
+	<restext resid='txt_figure' size='200,368' orientation='h-ttb-ltr' fontref='font_2' talign='begin' >
+		
+		<text fontref='font_3'>
+			Formulas :
+		</text>	
+	
+		<text>
+			o Peak to peak length : a
+		</text>
+		
+		<text>
+			o Area :
+		</text>
+		<text>
+			- ((pi - 3^(0.5))*a^(2))/2
+		</text>
+		<text>
+			o Perimeter : a*pi
+		</text>
+
+	</restext>
+	
+	<!-- We put the figure's coordinates -->
+	<respath resid='curv_tri_1' size='426,368' crop="auto" stroke='on' spread='off' color='#000000'>
+
+		<!-- Plot your coordinates here -->
+		Ju:364,364;
+		Co:378,401,366,379;
+		Co:404,432,391,421;
+		Co:429,401,416,421;
+		Co:444,364,442,379;
+		Co:404,358,429,358;
+		Co:364,364,379,358;
+
+		
+	</respath>	
+	
+	
+	
+	<!-- We draw the title bar -->
+	<respath resid='titre_1' size='640,56' crop="auto" stroke='off' spread='on' color='#d1d1d1'>	
+		<!-- Plot your coordinates here -->
+		Ju:640,424;
+		Li:640,480;
+		Li:0,480;
+		Li:0,424;
+		Li:640,424;
+	</respath>	
+	
+	<!-- We draw the figure part-->
+	<respath resid='figure_1' size='426,368' crop="auto" stroke='off' spread='on' color='#FFFFFF'>	
+		<!-- Plot your coordinates here -->
+		Ju:427,56;
+		Li:427,424;
+		Li:0,424;
+		Li:0,56;
+		Li:427,56;
+	</respath>	
+	
+	<!-- We draw the figure's properties part -->
+	<respath resid='part_txt_1' size='213,368' crop="auto" stroke='off' spread='on' color='#eeedec'>	
+		<!-- Plot your coordinates here -->
+		Ju:427,56;
+		Li:427,424;
+		Li:640,424;
+		Li:640,56;
+		Li:427,56;
+	</respath>	
+	
+	
+	
+	<!-- Button next -->
+	<respath resid='next_1' size='213,56' crop="auto" stroke='off' spread='on' color='#FFFFFF'>
+		<!-- Plot your coordinates here -->
+		Ju:640,0;
+		Li:427,0;
+		Li:427,56;
+		Li:640,56;
+		Li:640,0;
+	</respath>	
+
+	<!-- Button prev -->
+	<respath resid='prev_1' size='213,56' crop="auto" stroke='off' spread='on' color='#FFFFFF'>
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,56;
+		Li:213,56;
+		Li:213,0;
+		Li:0,0;
+
+	</respath>	
+
+	<!-- Button home -->
+	<respath resid='home_1' size='213,56' crop="auto" stroke='off' spread='on' color='#CCCCCC'>
+		<!-- Plot your coordinates here -->
+		Ju:640,0;
+		Li:427,0;
+		Li:427,56;
+		Li:640,56;
+		Li:640,0;
+	</respath>	
+
+	
+	
+	<!-- We stack the layers -->
+	<layer resref='rectangle_1' layerid='layer_1' leapout='lead' pos='320,240'  combine='add' opacity="100" flip="ydir"/> 
+
+	<layer resref='titre_1' layerid='layer_2' leapout='lead' pos='320,28' combine='add' opacity="100" flip="ydir"/> 
+
+	<layer resref='txt_titre' layerid='layer_3' leapout='lead' pos='320,28'  combine='add' opacity="100" /> 
+	
+	<layer resref='figure_1' layerid='layer_4' leapout='lead' pos='213,240'  combine='add' opacity="100" /> 
+	
+	<layer resref='part_txt_1' layerid='layer_5' leapout='lead' pos='533,240'  combine='add' opacity="100" /> 
+
+	<layer resref='txt_figure' layerid='layer_6' leapout='lead' pos='533,240'  combine='add' opacity="100" /> 
+	
+	<layer resref='curv_tri_1' layerid='layer_7' leapout='lead' pos='213,240'  combine='add' opacity="100" flip="ydir" /> 
+	
+	
+	
+	<!-- Reference vers le fichier next slide2.fsdl-->
+	<file fileid='next_file' nature='static' name='/slide2.fsdl' />
+	
+	<!-- Reference vers le fichier home slide2.fsdl-->
+	<file fileid='home_file' nature='static' name='/slide2.fsdl' />
+	
+	<!-- Reference vers le fichier prev slide2.fsdl-->
+	<file fileid='prev_file' nature='static' name='/slide2.fsdl' />
+	
+	<button buttonid='button1' goto='slide' fileref='next_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='next_1' layerid='button_next_1' leapout='lead' pos='533,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='next_1' layerid='button_next_2' leapout='lead' pos='533,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	<button buttonid='button2' goto='slide' fileref='home_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='home_1' layerid='button_home_1' leapout='lead' pos='320,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='home_1' layerid='button_home_2' leapout='lead' pos='320,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	<button buttonid='button3' goto='slide' fileref='prev_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='next_1' layerid='button_prev_1' leapout='lead' pos='107,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='next_1' layerid='button_prev_2' leapout='lead' pos='107,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	
+</frogans-fsdl>
