@@ -77,7 +77,7 @@
 	</restext>
 	
 	<!-- We put the figure's coordinates -->
-	<respath resid='pentagon_1' size='426,368' crop="auto" stroke='on' spread='off' color='#000000'>
+	<respath resid='pentagon_1' size='426,368' crop="auto" stroke='off' spread='off' color='#000000'>
 
 		<!-- Plot your coordinates here -->
 		Ju:53,136;
