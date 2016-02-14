@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?> <!-- This is your XML declaration -->
+
+	<frogans-fsdl version='3.0'> <!-- The opening tag of your FSDL root element -->
+
+	<!-- Dans chaque slide, nous allons mettre au maximum 6 données/figures -->
+	
+	<!-- On dessine un rectangle  -->	
+	<respath resid='bkgrnd' size='640,480' crop="auto" stroke='off' spread='on' color='#00BB00' fill='even-odd' >
+		Ju:0,0; 
+		Li:20,0; 
+		Li:20,20; 
+		Li:0,20; 
+	</respath>
+	<layer resref='bkgrnd' layerid='bkgrnd_l' leapout='all' pos='0,0' align='left-top' combine='add' opacity="100" /> 
+	
+	<!-- Liens vers les autres slides -->
+	<file fileid='mainpage_f' nature='static' name='/mainpage.fsdl' />
+	<file fileid='slidec_f' nature='static' name='/slides/slidec.fsdl' />
+	<file fileid='slidec2_f' nature='static' name='/slides/slidec2.fsdl' />
+	<file fileid='circle_f' nature='static' name='/shapes/circle.fsdl' />
+	<file fileid='crescent_f' nature='static' name='/shapes/crescent.fsdl' />
+	<file fileid='cube_f' nature='static' name='/shapes/cube.fsdl' />
+	<file fileid='cuboid_f' nature='static' name='/shapes/cuboid.fsdl' />
+
+	<!-- Home button -->
+	<resdraw resid='home_r' size='120,30' figure='roundrect' stroke='off' color='#ffffff' />
+	<!-- On dessine le mini rectangle redirecteur -->
+	<resdraw resid='mini_rect' size='60,30' figure='roundrect' stroke='off' color='#ffffff' />
+	<!-- On dessine le rectangle de donnee -->
+	<resdraw resid='mini_rect2' size='480,60' figure='roundrect' stroke='off' color='#ffffff' />
+	
+	
+	<!-- Filtre pour passage sur boutton -->
+	<setfilter filterid='gold'>
+		<filter effect='mixcolor' level='60' color='#ff00ff' />
+	</setfilter>
+
+	<!-- Font pour l'ecriture -->
+	<setfont fontid='btnfnt'>
+		<font scripts='default' pfont='112-2-sans-r' height='8' color='#004400' xbold='100' spacing='7' />
+	</setfont>
+	
+	<!-- Font1 pour l'ecriture des données -->
+	<setfont fontid='datafnt'>
+		<font scripts='default' pfont='112-2-sans-r' height='19' color='#004400' xbold='100' spacing='7' />
+	</setfont>
+	
+
+	<!-- Element 1 -->
+	<restext resid='elem_1' size='480,60' orientation='h-ttb-ltr' fontref='datafnt' talign='center'>
+		<text fontref='datafnt'>Circle</text>
+	</restext>
+	<button buttonid='elem1_b' goto='slide' fileref='circle_f'>	
+		<layer resref='mini_rect2' layerid='elem1_l_a' leapout='lead' pos='320,120' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect2' layerid='elem1_l_o' leapout='lead' pos='320,120' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='elem_1' layerid='t2_l' leapout='lead' pos='320,120' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>	
+	
+	<!-- Element 2 -->
+	<restext resid='elem_2' size='480,60' orientation='h-ttb-ltr' fontref='datafnt' talign='center'>
+		<text fontref='datafnt'>Crescent</text>
+	</restext>
+	<button buttonid='elem2_b' goto='slide' fileref='crescent_f'>	
+		<layer resref='mini_rect2' layerid='elem2_l_a' leapout='lead' pos='320,200' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect2' layerid='elem2_l_o' leapout='lead' pos='320,200' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='elem_2' layerid='t3_l' leapout='lead' pos='320,200' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>	
+	
+	<!-- Element 3 -->
+	<restext resid='elem_3' size='480,60' orientation='h-ttb-ltr' fontref='datafnt' talign='center'>
+		<text fontref='datafnt'>Cube</text>
+	</restext>
+	<button buttonid='elem3_b' goto='slide' fileref='cube_f'>	
+		<layer resref='mini_rect2' layerid='elem3_l_a' leapout='lead' pos='320,280' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect2' layerid='elem3_l_o' leapout='lead' pos='320,280' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='elem_3' layerid='t4_l' leapout='lead' pos='320,280' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>	
+	
+	<!-- Element 4 -->
+	<restext resid='elem_4' size='480,60' orientation='h-ttb-ltr' fontref='datafnt' talign='center'>
+		<text fontref='datafnt'>Cuboid</text>
+	</restext>
+	<button buttonid='elem4_b' goto='slide' fileref='cuboid_f'>	
+		<layer resref='mini_rect2' layerid='elem4_l_a' leapout='lead' pos='320,360' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect2' layerid='elem4_l_o' leapout='lead' pos='320,360' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='elem_4' layerid='t5_l' leapout='lead' pos='320,360' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>	
+	
+	<!-- B2 -->
+	<restext resid='txt_b_2' size='60,28' orientation='h-ttb-ltr' fontref='btnfnt' talign='center'>
+		<text fontref='btnfnt'>2</text>
+	</restext>
+	<button buttonid='slide2_b' goto='slide' fileref='slidec2_f'>	
+		<layer resref='mini_rect' layerid='b_2_l_a' leapout='lead' pos='278,440' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect' layerid='b_2_l_o' leapout='lead' pos='278,440' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='txt_b_2' layerid='b_2_l' leapout='lead' pos='278,442' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>
+
+	<!-- B1 -->
+	<restext resid='txt_b_1' size='60,28' orientation='h-ttb-ltr' fontref='btnfnt' talign='center'>
+		<text fontref='btnfnt'>1</text>
+	</restext>
+	<button buttonid='slide1_b' goto='slide' fileref='slidec_f'>	
+		<layer resref='mini_rect' layerid='b_1_l_a' leapout='lead' pos='218,440' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='mini_rect' layerid='b_1_l_o' leapout='lead' pos='218,440' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='txt_b_1' layerid='b_1_l' leapout='lead' pos='218,442' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>
+	
+
+
+	<!-- Home -->
+	<restext resid='txt_b_h' size='120,28' orientation='h-ttb-ltr' fontref='btnfnt' talign='center'>
+		<text fontref='btnfnt'>Home</text>
+	</restext>
+	<button buttonid='slidehome_b' goto='slide' fileref='mainpage_f'>	
+		<layer resref='home_r' layerid='home_r_l' leapout='lead' pos='128,440' align='center-middle' combine='clip' opacity="100" visible='nofocus' />
+		<layer resref='home_r' layerid='home_r_2' leapout='lead' pos='128,440' align='center-middle' combine='clip' opacity="100" visible='focus' filterref='gold' />
+		<layer resref='txt_b_h' layerid='t1_l' leapout='lead' pos='128,442' align='center-middle' combine='clip' opacity="100" visible='always' />
+	</button>
+	
+
+	
+	
+</frogans-fsdl><!-- The closing tag of your FSDL root element -->

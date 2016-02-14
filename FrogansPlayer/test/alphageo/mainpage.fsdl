@@ -295,57 +295,57 @@
 		
 	
 	<!-- Reference vers le fichier next slideA.fsdl-->
-	<file fileid='file_A' nature='static' name='/slidea.fsdl' />
+	<file fileid='file_A' nature='static' name='/index/indexa.fsdl' />
 	<!-- Reference vers le fichier next slideB.fsdl-->
-	<file fileid='file_B' nature='static' name='/slideb.fsdl' />
+	<file fileid='file_B' nature='static' name='/index/indexb.fsdl' />
 	<!-- Reference vers le fichier next slideC.fsdl-->
-	<file fileid='file_C' nature='static' name='/slidec.fsdl' />
+	<file fileid='file_C' nature='static' name='/slides/slidec.fsdl' />
 	<!-- Reference vers le fichier next slideD.fsdl-->
-	<file fileid='file_D' nature='static' name='/slided.fsdl' />
+	<file fileid='file_D' nature='static' name='/index/indexd.fsdl' />
 	<!-- Reference vers le fichier next slideE.fsdl-->
-	<file fileid='file_E' nature='static' name='/slidee.fsdl' />
+	<file fileid='file_E' nature='static' name='/slides/slidee.fsdl' />
 	<!-- Reference vers le fichier next slideF.fsdl-->
-	<file fileid='file_F' nature='static' name='/slidef.fsdl' />
+	<file fileid='file_F' nature='static' name='/index/indexf.fsdl' />
 	<!-- Reference vers le fichier next slideG.fsdl-->
-	<file fileid='file_G' nature='static' name='/slideg.fsdl' />
+	<file fileid='file_G' nature='static' name='/index/indexg.fsdl' />
 	<!-- Reference vers le fichier next slideH.fsdl-->
-	<file fileid='file_H' nature='static' name='/slideh.fsdl' />
+	<file fileid='file_H' nature='static' name='/slides/slideh.fsdl' />
 	<!-- Reference vers le fichier next slideI.fsdl-->
-	<file fileid='file_I' nature='static' name='/slidei.fsdl' />
+	<file fileid='file_I' nature='static' name='/slides/slidei.fsdl' />
 	<!-- Reference vers le fichier next slideJ.fsdl-->
-	<file fileid='file_J' nature='static' name='/slidej.fsdl' />
+	<file fileid='file_J' nature='static' name='/index/indexj.fsdl' />
 	<!-- Reference vers le fichier next slideK.fsdl-->
-	<file fileid='file_K' nature='static' name='/slidek.fsdl' />
+	<file fileid='file_K' nature='static' name='/index/indexk.fsdl' />
 	<!-- Reference vers le fichier next slideL.fsdl-->
-	<file fileid='file_L' nature='static' name='/slidel.fsdl' />
+	<file fileid='file_L' nature='static' name='/index/indexl.fsdl' />
 	<!-- Reference vers le fichier next slideM.fsdl-->
-	<file fileid='file_M' nature='static' name='/slidem.fsdl' />
+	<file fileid='file_M' nature='static' name='/index/indexm.fsdl' />
 	<!-- Reference vers le fichier next slideN.fsdl-->
-	<file fileid='file_N' nature='static' name='/sliden.fsdl' />
+	<file fileid='file_N' nature='static' name='/slides/sliden.fsdl' />
 	<!-- Reference vers le fichier next slideO.fsdl-->
-	<file fileid='file_O' nature='static' name='/slideo.fsdl' />
+	<file fileid='file_O' nature='static' name='/slides/slideo.fsdl' />
 	<!-- Reference vers le fichier next slideP.fsdl-->
-	<file fileid='file_P' nature='static' name='/slidep.fsdl' />
+	<file fileid='file_P' nature='static' name='/slides/slidep.fsdl' />
 	<!-- Reference vers le fichier next slideQ.fsdl-->
-	<file fileid='file_Q' nature='static' name='/slideq.fsdl' />
+	<file fileid='file_Q' nature='static' name='/slides/slideq.fsdl' />
 	<!-- Reference vers le fichier next slideR.fsdl-->
-	<file fileid='file_R' nature='static' name='/slider.fsdl' />
+	<file fileid='file_R' nature='static' name='/slides/slider.fsdl' />
 	<!-- Reference vers le fichier next slideS.fsdl-->
-	<file fileid='file_S' nature='static' name='/slides.fsdl' />
+	<file fileid='file_S' nature='static' name='/slides/slides.fsdl' />
 	<!-- Reference vers le fichier next slideT.fsdl-->
-	<file fileid='file_T' nature='static' name='/slidet.fsdl' />
+	<file fileid='file_T' nature='static' name='/slides/slidet.fsdl' />
 	<!-- Reference vers le fichier next slideU.fsdl-->
-	<file fileid='file_U' nature='static' name='/slideu.fsdl' />
+	<file fileid='file_U' nature='static' name='/index/indexu.fsdl' />
 	<!-- Reference vers le fichier next slideV.fsdl-->
-	<file fileid='file_V' nature='static' name='/slidev.fsdl' />
+	<file fileid='file_V' nature='static' name='/index/indexv.fsdl' />
 	<!-- Reference vers le fichier next slideW.fsdl-->
-	<file fileid='file_W' nature='static' name='/slidew.fsdl' />
+	<file fileid='file_W' nature='static' name='/index/indexw.fsdl' />
 	<!-- Reference vers le fichier next slideX.fsdl-->
-	<file fileid='file_X' nature='static' name='/slidex.fsdl' />
+	<file fileid='file_X' nature='static' name='/index/indexx.fsdl' />
 	<!-- Reference vers le fichier next slideY.fsdl-->
-	<file fileid='file_Y' nature='static' name='/slidey.fsdl' />
+	<file fileid='file_Y' nature='static' name='/index/indexy.fsdl' />
 	<!-- Reference vers le fichier next slideZ.fsdl-->
-	<file fileid='file_Z' nature='static' name='/slidez.fsdl' />
+	<file fileid='file_Z' nature='static' name='/index/indexz.fsdl' />
 
 	
 	<!-- Boutton A -->
