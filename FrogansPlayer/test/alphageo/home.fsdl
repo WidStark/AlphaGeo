@@ -3,8 +3,18 @@
 	<!-- We load the background image -->
 	<file fileid='bkgrnd_f' nature='static' name='/images/background2.png' cache='on' />
 	
+	<!-- We create the ressource related to the previous image file -->
 	<resimage fileref='bkgrnd_f' resid='bkgrnd_r' size='640,480' />
+	
+	<!-- We create a layer related to the previous ressource -->
 	<layer resref='bkgrnd_r' layerid='bkgrnd_layer' leapout='all' pos='0,0' align='left-top' combine='add' />
+	
+	
+	<!-- We load the main page -->
+	<file fileid='mainpage_f' nature='static' name='/mainpage.fsdl' />
+	
+	<!-- We wait 8 second before loading the home page -->
+	<next delay='8' fileref='mainpage_f' />
 	
 
 </frogans-fsdl>

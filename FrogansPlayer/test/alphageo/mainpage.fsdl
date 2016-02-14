@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='utf-8'?> 
+
+<frogans-fsdl version='3.0'> <!-- The opening tag of your FSDL root element -->
+
+	<!-- Vignette -->
+	<file fileid='vgnt_file' nature='static' name='/images/opm2.png' cache='on' />
+	<resimage fileref='vgnt_file' resid='vgnt_res' size='640,480' />
+	<layer resref='vgnt_res' layerid='vgnt_layer' leapout='vignette' pos='0,0' align='left-top' combine='add' />
+
+
+	<respath resid='quad_b' size='640,480' crop="auto" stroke='off' spread='off' color='#CCCCCC'>
+
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,480;
+		Li:640,480;
+		Li:640,0;
+		Li:0,0;
+		
+	</respath>
+	
+	<respath resid='quad_1' size='640,480' crop="auto" stroke='on' spread='off' color='#000000'>
+
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,480;
+		Li:640,480;
+		Li:640,0;
+		Li:0,0;
+
+		Ju:640,320;
+		Li:0,320;
+
+		Ju:640,160;
+		Li:0,160;
+
+		Ju:64,480;
+		Li:64,0;
+
+		Ju:128,480;
+		Li:128,0;
+
+		Ju:192,480;
+		Li:192,0;
+
+		Ju:256,480;
+		Li:256,0;
+
+		Ju:320,480;
+		Li:320,0;
+
+		Ju:384,480;
+		Li:384,0;
+
+		Ju:448,480;
+		Li:448,160;
+
+		Ju:512,480;
+		Li:512,160;
+
+		Ju:576,480;
+		Li:576,160;
+
+		<!-- Pointillés -->
+
+	</respath>
+
+	
+	
+	<setfont fontid='font_1'>
+		<font scripts='default' pfont='108-1-sans-r' height='15.0' xbold='100' color='#FFFFFF'/>
+	</setfont>
+	
+	<restext resid='letter_A' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			A
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_B' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			B
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_C' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			C
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_D' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			D
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_E' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			E
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_F' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			F
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_G' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			G
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_H' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			H
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_I' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			I
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_J' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			J
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_K' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			K
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_L' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			L
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_M' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			M
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_N' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			N
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_O' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			O
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_P' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			P
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_Q' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			Q
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_R' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			R
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_S' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			S
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_T' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			T
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_U' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			U
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_V' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			V
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_W' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			W
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_X' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			X
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_Y' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			Y
+		</text>
+		<text/>
+	</restext>
+	
+	<restext resid='letter_Z' size='64,160' orientation='h-ttb-ltr' fontref='font_1' talign='center'>
+		<text/>		
+		<text>
+			Z
+		</text>
+		<text/>
+	</restext>
+	
+	
+	<layer resref='quad_b' layerid='layer_5' leapout='lead' pos='0,0' align='left-top' combine='add' opacity="100" flip="ydir" /> 
+	<layer resref='quad_1' layerid='layer_6' leapout='lead' pos='0,0' align='left-top' combine='add' opacity="100" flip="ydir"/> 
+
+	<!-- On dessine l'arrière plan des lettres -->
+	<respath resid='letter_fnt' size='64,160' crop="auto" stroke='off' spread='on' color='#0f121f'>	
+		<!-- Plot your coordinates here -->
+		Ju:0,320;
+		Li:0,480;
+		Li:64,480;
+		Li:64,320;
+		Li:0,320;
+	</respath>
+		
+	
+	<!-- Reference vers le fichier next slideA.fsdl-->
+	<file fileid='file_A' nature='static' name='/slidea.fsdl' />
+	<!-- Reference vers le fichier next slideB.fsdl-->
+	<file fileid='file_B' nature='static' name='/slideb.fsdl' />
+	<!-- Reference vers le fichier next slideC.fsdl-->
+	<file fileid='file_C' nature='static' name='/slidec.fsdl' />
+	<!-- Reference vers le fichier next slideD.fsdl-->
+	<file fileid='file_D' nature='static' name='/slided.fsdl' />
+	<!-- Reference vers le fichier next slideE.fsdl-->
+	<file fileid='file_E' nature='static' name='/slidee.fsdl' />
+	<!-- Reference vers le fichier next slideF.fsdl-->
+	<file fileid='file_F' nature='static' name='/slidef.fsdl' />
+	<!-- Reference vers le fichier next slideG.fsdl-->
+	<file fileid='file_G' nature='static' name='/slideg.fsdl' />
+	<!-- Reference vers le fichier next slideH.fsdl-->
+	<file fileid='file_H' nature='static' name='/slideh.fsdl' />
+	<!-- Reference vers le fichier next slideI.fsdl-->
+	<file fileid='file_I' nature='static' name='/slidei.fsdl' />
+	<!-- Reference vers le fichier next slideJ.fsdl-->
+	<file fileid='file_J' nature='static' name='/slidej.fsdl' />
+	<!-- Reference vers le fichier next slideK.fsdl-->
+	<file fileid='file_K' nature='static' name='/slidek.fsdl' />
+	<!-- Reference vers le fichier next slideL.fsdl-->
+	<file fileid='file_L' nature='static' name='/slidel.fsdl' />
+	<!-- Reference vers le fichier next slideM.fsdl-->
+	<file fileid='file_M' nature='static' name='/slidem.fsdl' />
+	<!-- Reference vers le fichier next slideN.fsdl-->
+	<file fileid='file_N' nature='static' name='/sliden.fsdl' />
+	<!-- Reference vers le fichier next slideO.fsdl-->
+	<file fileid='file_O' nature='static' name='/slideo.fsdl' />
+	<!-- Reference vers le fichier next slideP.fsdl-->
+	<file fileid='file_P' nature='static' name='/slidep.fsdl' />
+	<!-- Reference vers le fichier next slideQ.fsdl-->
+	<file fileid='file_Q' nature='static' name='/slideq.fsdl' />
+	<!-- Reference vers le fichier next slideR.fsdl-->
+	<file fileid='file_R' nature='static' name='/slider.fsdl' />
+	<!-- Reference vers le fichier next slideS.fsdl-->
+	<file fileid='file_S' nature='static' name='/slides.fsdl' />
+	<!-- Reference vers le fichier next slideT.fsdl-->
+	<file fileid='file_T' nature='static' name='/slidet.fsdl' />
+	<!-- Reference vers le fichier next slideU.fsdl-->
+	<file fileid='file_U' nature='static' name='/slideu.fsdl' />
+	<!-- Reference vers le fichier next slideV.fsdl-->
+	<file fileid='file_V' nature='static' name='/slidev.fsdl' />
+	<!-- Reference vers le fichier next slideW.fsdl-->
+	<file fileid='file_W' nature='static' name='/slidew.fsdl' />
+	<!-- Reference vers le fichier next slideX.fsdl-->
+	<file fileid='file_X' nature='static' name='/slidex.fsdl' />
+	<!-- Reference vers le fichier next slideY.fsdl-->
+	<file fileid='file_Y' nature='static' name='/slidey.fsdl' />
+	<!-- Reference vers le fichier next slideZ.fsdl-->
+	<file fileid='file_Z' nature='static' name='/slidez.fsdl' />
+
+	
+	<!-- Boutton A -->
+	<button buttonid='buttonA' goto='slide' fileref='file_A' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_A_1' leapout='lead' pos='32,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_A_2' leapout='lead' pos='32,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_A' layerid='button_A_3' leapout='lead' pos='32,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_A' layerid='button_A_4' leapout='lead' pos='32,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton B -->
+	<button buttonid='buttonB' goto='slide' fileref='file_B' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_B_1' leapout='lead' pos='96,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_B_2' leapout='lead' pos='96,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_B' layerid='button_B_3' leapout='lead' pos='96,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_B' layerid='button_B_4' leapout='lead' pos='96,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton C -->
+	<button buttonid='buttonC' goto='slide' fileref='file_C' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_C_1' leapout='lead' pos='160,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_C_2' leapout='lead' pos='160,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_C' layerid='button_C_3' leapout='lead' pos='160,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_C' layerid='button_C_4' leapout='lead' pos='160,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton D -->
+	<button buttonid='buttonD' goto='slide' fileref='file_D' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_D_1' leapout='lead' pos='224,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_D_2' leapout='lead' pos='224,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_D' layerid='button_D_3' leapout='lead' pos='224,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_D' layerid='button_D_4' leapout='lead' pos='224,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton E -->
+	<button buttonid='buttonE' goto='slide' fileref='file_E' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_E_1' leapout='lead' pos='288,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_E_2' leapout='lead' pos='288,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_E' layerid='button_E_3' leapout='lead' pos='288,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_E' layerid='button_E_4' leapout='lead' pos='288,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton F -->
+	<button buttonid='buttonF' goto='slide' fileref='file_F' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_F_1' leapout='lead' pos='352,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_F_2' leapout='lead' pos='352,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_F' layerid='button_F_3' leapout='lead' pos='352,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_F' layerid='button_F_4' leapout='lead' pos='352,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton G -->
+	<button buttonid='buttonG' goto='slide' fileref='file_G' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_G_1' leapout='lead' pos='416,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_G_2' leapout='lead' pos='416,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_G' layerid='button_G_3' leapout='lead' pos='416,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_G' layerid='button_G_4' leapout='lead' pos='416,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton H -->
+	<button buttonid='buttonH' goto='slide' fileref='file_H' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_H_1' leapout='lead' pos='480,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_H_2' leapout='lead' pos='480,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_H' layerid='button_H_3' leapout='lead' pos='480,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_H' layerid='button_H_4' leapout='lead' pos='480,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton I -->
+	<button buttonid='buttonI' goto='slide' fileref='file_I' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_I_1' leapout='lead' pos='544,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_I_2' leapout='lead' pos='544,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_I' layerid='button_I_3' leapout='lead' pos='544,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_I' layerid='button_I_4' leapout='lead' pos='544,80' combine='clip' visible='focus' opacity='100' />
+	</button>	
+	
+	<!-- Boutton J -->
+	<button buttonid='buttonJ' goto='slide' fileref='file_J' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_J_1' leapout='lead' pos='608,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_J_2' leapout='lead' pos='608,80' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_J' layerid='button_J_3' leapout='lead' pos='608,80' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_J' layerid='button_J_4' leapout='lead' pos='608,80' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton K -->
+	<button buttonid='buttonK' goto='slide' fileref='file_K' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_K_1' leapout='lead' pos='32,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_K_2' leapout='lead' pos='32,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_K' layerid='button_K_3' leapout='lead' pos='32,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_K' layerid='button_K_4' leapout='lead' pos='32,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton L -->
+	<button buttonid='buttonL' goto='slide' fileref='file_L' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_L_1' leapout='lead' pos='96,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_L_2' leapout='lead' pos='96,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_L' layerid='button_L_3' leapout='lead' pos='96,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_L' layerid='button_L_4' leapout='lead' pos='96,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton M -->
+	<button buttonid='buttonM' goto='slide' fileref='file_M' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_M_1' leapout='lead' pos='160,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_M_2' leapout='lead' pos='160,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_M' layerid='button_M_3' leapout='lead' pos='160,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_M' layerid='button_M_4' leapout='lead' pos='160,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton N -->
+	<button buttonid='buttonN' goto='slide' fileref='file_N' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_N_1' leapout='lead' pos='224,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_N_2' leapout='lead' pos='224,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_N' layerid='button_N_3' leapout='lead' pos='224,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_N' layerid='button_N_4' leapout='lead' pos='224,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton O -->
+	<button buttonid='buttonO' goto='slide' fileref='file_O' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_O_1' leapout='lead' pos='288,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_O_2' leapout='lead' pos='288,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_O' layerid='button_O_3' leapout='lead' pos='288,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_O' layerid='button_O_4' leapout='lead' pos='288,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton P -->
+	<button buttonid='buttonP' goto='slide' fileref='file_P' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_P_1' leapout='lead' pos='352,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_P_2' leapout='lead' pos='352,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_P' layerid='button_P_3' leapout='lead' pos='352,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_P' layerid='button_P_4' leapout='lead' pos='352,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton Q -->
+	<button buttonid='buttonQ' goto='slide' fileref='file_Q' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_Q_1' leapout='lead' pos='416,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_Q_2' leapout='lead' pos='416,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_Q' layerid='button_Q_3' leapout='lead' pos='416,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_Q' layerid='button_Q_4' leapout='lead' pos='416,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton R -->
+	<button buttonid='buttonR' goto='slide' fileref='file_R' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_R_1' leapout='lead' pos='480,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_R_2' leapout='lead' pos='480,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_R' layerid='button_R_3' leapout='lead' pos='480,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_R' layerid='button_R_4' leapout='lead' pos='480,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton S -->
+	<button buttonid='buttonS' goto='slide' fileref='file_S' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_S_1' leapout='lead' pos='544,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_S_2' leapout='lead' pos='544,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_S' layerid='button_S_3' leapout='lead' pos='544,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_S' layerid='button_S_4' leapout='lead' pos='544,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton T -->
+	<button buttonid='buttonT' goto='slide' fileref='file_T' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_T_1' leapout='lead' pos='608,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_T_2' leapout='lead' pos='608,240' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_T' layerid='button_T_3' leapout='lead' pos='608,240' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_T' layerid='button_T_4' leapout='lead' pos='608,240' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton U -->
+	<button buttonid='buttonU' goto='slide' fileref='file_U' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_U_1' leapout='lead' pos='32,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_U_2' leapout='lead' pos='32,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_U' layerid='button_U_3' leapout='lead' pos='32,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_U' layerid='button_U_4' leapout='lead' pos='32,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton V -->
+	<button buttonid='buttonV' goto='slide' fileref='file_V' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_V_1' leapout='lead' pos='96,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_V_2' leapout='lead' pos='96,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_V' layerid='button_V_3' leapout='lead' pos='96,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_V' layerid='button_V_4' leapout='lead' pos='96,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton W -->
+	<button buttonid='buttonW' goto='slide' fileref='file_W' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_W_1' leapout='lead' pos='160,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_W_2' leapout='lead' pos='160,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_W' layerid='button_W_3' leapout='lead' pos='160,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_W' layerid='button_W_4' leapout='lead' pos='160,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton X -->
+	<button buttonid='buttonX' goto='slide' fileref='file_X' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_X_1' leapout='lead' pos='224,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_X_2' leapout='lead' pos='224,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_X' layerid='button_X_3' leapout='lead' pos='224,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_X' layerid='button_X_4' leapout='lead' pos='224,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton Y -->
+	<button buttonid='buttonY' goto='slide' fileref='file_Y' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_Y_1' leapout='lead' pos='288,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_Y_2' leapout='lead' pos='288,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_Y' layerid='button_Y_3' leapout='lead' pos='288,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_Y' layerid='button_Y_4' leapout='lead' pos='288,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+	
+	<!-- Boutton Z -->
+	<button buttonid='buttonZ' goto='slide' fileref='file_Z' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='letter_fnt' layerid='button_Z_1' leapout='lead' pos='352,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_fnt' layerid='button_Z_2' leapout='lead' pos='352,400' combine='clip' visible='focus' opacity='100' />
+		
+		<layer resref='letter_Z' layerid='button_Z_3' leapout='lead' pos='352,400' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='letter_Z' layerid='button_Z_4' leapout='lead' pos='352,400' combine='clip' visible='focus' opacity='100' />
+	</button>
+
+	
+	
+	
+
+</frogans-fsdl><!-- The closing tag of your FSDL root element -->
+
