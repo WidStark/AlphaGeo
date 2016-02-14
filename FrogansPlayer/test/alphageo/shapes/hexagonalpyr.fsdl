@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?> 
+
+<frogans-fsdl version='3.0'> <!-- The opening tag of your FSDL root element -->
+
+	<!-- Vignette -->
+	<file fileid='vgnt_file' nature='static' name='../images/logo.png' cache='on' />
+	<resimage fileref='vgnt_file' resid='vgnt_res' size='640,480' />
+	<layer resref='vgnt_res' layerid='vgnt_layer' leapout='vignette' pos='0,0' align='left-top' combine='add' />
+
+	
+	
+	<!-- We draw the background -->
+	<respath resid='rectangle_1' size='640,480' crop="auto" stroke='off' spread='on' color='#000000'>
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,480;
+		Li:640,480;
+		Li:640,0;
+	</respath>	
+	
+	<!-- We set the title font -->
+	<setfont fontid='font_1'>
+		<font scripts='default' pfont='108-1-sans-r' height='15.0' xbold='100' color='#000000'/>
+	</setfont>
+	
+	<!-- We set the Geometry and Formulas font -->
+	<setfont fontid='font_2'>
+		<font scripts='default' pfont='108-1-sans-r' height='8.0' xbold='20' color='#000000'/>
+	</setfont>
+	
+	<!-- We set the writtings font -->
+	<setfont fontid='font_3'>
+		<font scripts='default' pfont='108-1-sans-r' height='11.0' xbold='50' color='#000000' underline='on'/>
+	</setfont>
+
+	
+	
+	<!-- We put the figure's name -->
+	<restext resid='txt_titre' size='640,56' orientation='h-btt-ltr' fontref='font_1' talign='center'>
+		<text>
+			Hexagonal pyramid
+		</text>
+	</restext>
+	
+	<!-- We put the figure's preperties -->
+	<restext resid='txt_figure' size='200,368' orientation='h-ttb-ltr' fontref='font_2' talign='begin' >
+		<text fontref='font_3'>
+			Geometry :
+		</text>	
+	
+		<text>
+			o 7 Faces
+		</text>
+		
+		<text>
+			o 12 Edges
+		</text>
+		
+		<text>
+			o 7 Vertices
+		</text>
+		
+		<text>
+			<!-- Enable to create a carriage return -->
+		</text>
+		
+	</restext>
+	
+	<!-- We put the figure's coordinates -->
+	<respath resid='hex_pyr_1' size='426,368' crop="auto" stroke='on' spread='off' color='#000000'>
+
+		<!-- Plot your coordinates here -->
+
+		Ju:417,432;
+		Li:463,477;
+		Li:506,432;
+		Li:485,424;
+		Li:439,424;
+		Li:417,432;
+		
+		Ju:439,424;
+		Li:463,477;
+
+		Ju:463,477;
+		Li:485,424;
+
+
+
+
+		<!-- Pointillés -->
+		
+		Ju:439,439;
+		Li:440,439;
+		Ju:443,439;
+		Li:444,439;
+		Ju:447,439;
+		Li:448,439;
+		Ju:451,439;
+		Li:452,439;
+		Ju:455,439;
+		Li:456,439;
+		Ju:459,439;
+		Li:460,439;
+		Ju:463,439;
+		Li:464,439;
+		Ju:467,439;
+		Li:468,439;
+		Ju:471,439;
+		Li:472,439;
+		Ju:475,439;
+		Li:476,439;
+		Ju:479,439;
+		Li:480,439;
+		Ju:483,439;
+		Li:484,439;
+		
+
+
+		Ju:461,474;
+		Li:460,474;
+		Ju:459,471;
+		Li:458,470;
+		Ju:457,468;
+		Li:456,467;
+		Ju:455,464;
+		Li:454,464;
+		Ju:452,461;
+		Li:452,460;
+		Ju:450,458;
+		Li:450,457;
+		Ju:448,455;
+		Li:448,454;
+		Ju:446,451;
+		Li:446,451;
+		Ju:445,450;
+		Li:446,451;
+		Ju:444,448;
+		Li:443,447;
+		Ju:442,445;
+		Li:441,444;
+		Ju:440,442;
+		Li:439,441;
+
+
+
+		Ju:464,474;
+		Li:465,473;
+		Ju:466,471;
+		Li:467,470;
+		Ju:468,468;
+		Li:469,467;
+		Ju:470,464;
+		Li:471,463;
+		Ju:472,461;
+		Li:473,460;
+		Ju:474,458;
+		Li:474,457;
+		Ju:476,454;
+		Li:476,453;
+		Ju:478,451;
+		Li:478,450;
+		Ju:480,448;
+		Li:480,447;
+		Ju:482,444;
+		Li:482,443;
+		Ju:484,441;
+		Li:484,440;
+
+
+		Ju:420,433;
+		Li:421,433;
+		Ju:423,434;
+		Li:424,434;
+		Ju:427,435;
+		Li:428,436;
+		Ju:431,437;
+		Li:432,437;
+		Ju:434,438;
+		Li:435,438;
+
+
+
+		Ju:488,438;
+		Li:489,438;
+		Ju:491,437;
+		Li:492,437;
+		Ju:495,436;
+		Li:496,436;
+		Ju:499,435;
+		Li:500,434;
+		Ju:502,434;
+		Li:503,433;
+		
+	</respath>	
+	
+	
+	
+	<!-- We draw the title bar -->
+	<respath resid='titre_1' size='640,56' crop="auto" stroke='off' spread='on' color='#d1d1d1'>	
+		<!-- Plot your coordinates here -->
+		Ju:640,424;
+		Li:640,480;
+		Li:0,480;
+		Li:0,424;
+		Li:640,424;
+	</respath>	
+	
+	<!-- We draw the figure part-->
+	<respath resid='figure_1' size='426,368' crop="auto" stroke='off' spread='on' color='#FFFFFF'>	
+		<!-- Plot your coordinates here -->
+		Ju:427,56;
+		Li:427,424;
+		Li:0,424;
+		Li:0,56;
+		Li:427,56;
+	</respath>	
+	
+	<!-- We draw the figure's properties part -->
+	<respath resid='part_txt_1' size='213,368' crop="auto" stroke='off' spread='on' color='#eeedec'>	
+		<!-- Plot your coordinates here -->
+		Ju:427,56;
+		Li:427,424;
+		Li:640,424;
+		Li:640,56;
+		Li:427,56;
+	</respath>	
+	
+	
+	
+	<!-- Button next -->
+	<respath resid='next_1' size='213,56' crop="auto" stroke='off' spread='on' color='#FFFFFF'>
+		<!-- Plot your coordinates here -->
+		Ju:640,0;
+		Li:427,0;
+		Li:427,56;
+		Li:640,56;
+		Li:640,0;
+	</respath>	
+
+	<!-- Button prev -->
+	<respath resid='prev_1' size='213,56' crop="auto" stroke='off' spread='on' color='#FFFFFF'>
+		<!-- Plot your coordinates here -->
+		Ju:0,0;
+		Li:0,56;
+		Li:213,56;
+		Li:213,0;
+		Li:0,0;
+
+	</respath>	
+
+	<!-- Button home -->
+	<respath resid='home_1' size='213,56' crop="auto" stroke='off' spread='on' color='#CCCCCC'>
+		<!-- Plot your coordinates here -->
+		Ju:640,0;
+		Li:427,0;
+		Li:427,56;
+		Li:640,56;
+		Li:640,0;
+	</respath>	
+
+	
+	
+	<!-- We stack the layers -->
+	<layer resref='rectangle_1' layerid='layer_1' leapout='lead' pos='320,240'  combine='add' opacity="100" flip="ydir"/> 
+
+	<layer resref='titre_1' layerid='layer_2' leapout='lead' pos='320,28' combine='add' opacity="100" flip="ydir"/> 
+
+	<layer resref='txt_titre' layerid='layer_3' leapout='lead' pos='320,28'  combine='add' opacity="100" /> 
+	
+	<layer resref='figure_1' layerid='layer_4' leapout='lead' pos='213,240'  combine='add' opacity="100" /> 
+	
+	<layer resref='part_txt_1' layerid='layer_5' leapout='lead' pos='533,240'  combine='add' opacity="100" /> 
+
+	<layer resref='txt_figure' layerid='layer_6' leapout='lead' pos='533,240'  combine='add' opacity="100" /> 
+	
+	<layer resref='hex_pyr_1' layerid='layer_7' leapout='lead' pos='213,240'  combine='add' opacity="100" flip="ydir" /> 
+	
+	
+	
+	<!-- Reference vers le fichier next slide2.fsdl-->
+	<file fileid='next_file' nature='static' name='/slide2.fsdl' />
+	
+	<!-- Reference vers le fichier home slide2.fsdl-->
+	<file fileid='home_file' nature='static' name='/slide2.fsdl' />
+	
+	<!-- Reference vers le fichier prev slide2.fsdl-->
+	<file fileid='prev_file' nature='static' name='/slide2.fsdl' />
+	
+	<button buttonid='button1' goto='slide' fileref='next_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='next_1' layerid='button_next_1' leapout='lead' pos='533,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='next_1' layerid='button_next_2' leapout='lead' pos='533,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	<button buttonid='button2' goto='slide' fileref='home_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='home_1' layerid='button_home_1' leapout='lead' pos='320,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='home_1' layerid='button_home_2' leapout='lead' pos='320,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	<button buttonid='button3' goto='slide' fileref='prev_file' >
+		<!-- Description de l'affichage du boutton de transition entre deux slides-->
+		<layer resref='next_1' layerid='button_prev_1' leapout='lead' pos='107,452' combine='clip' visible='nofocus' opacity='65' />
+		<layer resref='next_1' layerid='button_prev_2' leapout='lead' pos='107,452' combine='clip' visible='focus' opacity='100' />	
+	</button>
+	
+	
+</frogans-fsdl>
